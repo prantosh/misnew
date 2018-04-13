@@ -1,0 +1,136 @@
+table.roundedCorners { 
+  width:100%;
+  text-align: left;
+border-collapse: collapse;
+background-color: #ffffff;
+border: 10px solid #ffffff;
+  border-radius: 25px;
+  }
+  table.roundedCorners_border { 
+  width:100%;
+border-collapse: collapse;
+text-align: left;
+  background-color: #ffffff;
+  border: 10px solid #196cae;
+  border-radius: 15px;
+  }
+
+
+	.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtable td{ 
+		padding:7px; border:#4e95f4 1px solid; color:black;
+	}
+        .TFtable th{ 
+		padding:7px; border:#4e95f4 1px solid; color:white;background: grey;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #dae5f4;
+	}
+
+
+        
+        .TFtableRed{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtableRed td{ 
+                font-weight: bold;padding:7px; border:#4e95f4 1px solid; color:blue;
+	}
+        .TFtableRed th{ 
+		padding:7px; border:#4e95f4 1px solid; color:black;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtableRed tr{
+		background: #ffffff;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtableRed tr:nth-child(odd){ 
+		background: #ffffff;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtableRed tr:nth-child(even){
+		background: #ffffff;
+	}
+        
+         .TFtableYellow{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtableYellow td{ 
+                padding:7px; border:#4e95f4 1px solid; color:blue;
+	}
+        .TFtableYellow th{ 
+                font-weight: bold;padding:7px; border:#4e95f4 1px solid; color:white;background: #006600;
+	}
+        .TFtableYellow{ 
+		padding:7px; border:#4e95f4 1px solid; color:black
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtableYellow tr{
+		background: #d4d46a;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtableYellow tr:nth-child(odd){ 
+		background: #d4d46a;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtableYellow tr:nth-child(even){
+		background: #ffffff;
+	}
+
+ .TFtableYellow1{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtableYellow1 td{ 
+                padding:7px; border:#4e95f4 1px solid; 
+	}
+        .TFtableYellow1 th{ 
+                font-weight: bold;padding:7px; border:#4e95f4 1px solid; color:white;background: #006600;
+	background: #183b82;
+                color:#ffffff;
+        }
+        .TFtableYellow1{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	
+	/*  Define the background color for all the ODD background rows  */
+	.TFtableYellow1 tr:nth-child(even){ 
+		background: #183b82;
+                color:white;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtableYellow1 tr:nth-child(odd){
+		background: white;
+                color:#183b82;
+	}
+
+.container{
+ margin: 0 auto;
+ width: 30%;
+}
+
+.content{
+ border: 1px solid black;
+ padding: 5px;
+ margin-bottom: 5px;
+}
+.content span{
+ width: 250px;
+}
+.content span:hover{
+ cursor: pointer;
+}
